@@ -1,0 +1,33 @@
+{
+  "name": "marc21-deduplication",
+  "version": "0.0.1",
+  "description": "A framework for deduplication of MARC21 records.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/petuomin/marc21-deduplication"
+  },
+  "keywords": [
+    "MARC21",
+    "deduplication"
+  ],
+  "author": "Pasi Tuominen",
+  "bugs": {
+    "url": "https://github.com/petuomin/marc21-deduplication/issues"
+  },
+  "homepage": "https://github.com/petuomin/marc21-deduplication",
+  "dependencies": {
+    "brain": "^0.7.0",
+    "byline": "^4.2.1",
+    "commander": "^2.6.0",
+    "docopt": "^0.4.1",
+    "murmurhash3": "^0.3.1",
+    "q": "^1.1.2",
+    "roman-numerals": "^0.3.2",
+    "unorm": "^1.3.3",
+    "wuzzy": "^0.1.2",
+    "xml2js": "^0.4.4"
+  }
+}
